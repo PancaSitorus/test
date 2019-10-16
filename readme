@@ -1,0 +1,14 @@
+Step by step untuk robot:
+1. Pastikan bahwa anda telah menginstall robot framework
+2. Open robot melalui command line python anda "python ride.py"
+3. Open project yang sudah anda download (TestRobot.robot)
+4. Centang TC1_1_Login dan TC2_1_search untuk menjalankan scenario search pada facebook secara normal
+5. Centang TC1_2_Login untuk TC login salah
+6. Centang salah satu TC_3 untuk lupa akun.
+
+Step by step untuk Mocha:
+1. Pastikan anda telah mendownload npm melalui terminal anda
+2. Open terminal melalui project yang sudah anda download untuk bagian test mocha (folder 'test')
+3. Install library yang diperlukan dengan cara :
+"npm install mocha --save-dev", "npm install chai --save-dev", "npm install should --save-dev", "npm install request --save-dev".
+4. Kemudian jalankan test dengan memasukkan perintah "mocha" pada terminal anda  
