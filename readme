@@ -8,7 +8,7 @@ Step by step untuk robot:
 
 Step by step untuk Mocha:
 1. Pastikan anda telah mendownload npm melalui terminal anda
-2. Open terminal melalui project yang sudah anda download untuk bagian test mocha (folder 'test')
+2. Open terminal melalui project yang sudah anda download untuk bagian test mocha (folder 'mochatest')
 3. Install library yang diperlukan dengan cara :
 "npm install mocha --save-dev", "npm install chai --save-dev", "npm install should --save-dev", "npm install request --save-dev".
 4. Kemudian jalankan test dengan memasukkan perintah "mocha" pada terminal anda  
