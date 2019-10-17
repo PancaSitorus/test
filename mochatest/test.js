@@ -6,7 +6,7 @@ var baseUrl = "https://swapi.co";
 var util = require("util");
 
 describe('get data', function(){
-	it('dapat luke', function(done){
+	it('dapat data by panca', function(done){
 		request.get({ url: baseUrl + '/api/people/1/'},
 			function(error,response,body){
 				var bodyObj = JSON.parse(body);
